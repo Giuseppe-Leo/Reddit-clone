@@ -2,7 +2,10 @@
     background-color: #fff;
     color: black;
     height: 58px;
-    z-index: 50;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid rgb(190, 189, 189);
 }
 
@@ -55,6 +58,27 @@
     text-decoration: none;
 }
 
+.nav-item:hover {
+    background-color: #dae0e6;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .nav-item:first-child {
     margin-left: 0;
+
+}
+
+.create-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.create-button:hover {
+    background-color: #dae0e6;
+    border-radius: 20px;
 }

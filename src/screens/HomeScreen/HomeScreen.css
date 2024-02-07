@@ -1,0 +1,22 @@
+.home-body {
+    display: flex;
+    height: 90vh;
+
+
+}
+
+.home-body {
+    display: flex;
+    flex: 1;
+}
+
+.body-container {
+    flex: 1;
+    /* Fill remaining space */
+    padding: 10px;
+    /* Add padding as needed */
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    margin: 0 10px;
+}

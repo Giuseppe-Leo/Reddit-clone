@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../Images/reddit-logo.png";
+import { Avatar } from "@mui/material";
 import "./NavBar.css";
 
 function NavBar() {
@@ -38,8 +39,8 @@ function NavBar() {
           </form>
         </div>
         <div className="navbar-right">
-          <Link className="nav-item">Item</Link>
-          <Link className="nav-item">Item</Link>
+        <Link to='/create' className="create-button">+ Create</Link>
+          <Avatar className="nav-item" sx={{width: 31, height: 30, mt: 1}}/>
         </div>
       </div>
     </nav>
